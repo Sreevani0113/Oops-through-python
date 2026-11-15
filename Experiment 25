@@ -1,0 +1,11 @@
+class Animal:
+    def __init__(self):
+        self.__name = "Dog"
+        self.__age = 5
+
+    def display(self):
+        print("Name:", self.__name)
+        print("Age:", self.__age)
+
+A = Animal()
+A.display()
